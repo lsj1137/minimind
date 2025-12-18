@@ -15,7 +15,8 @@ export default function Help(props: HelpProps) {
     <div style={modalOverlayStyle} onClick={() => setIsHelpOpen(false)}>
       <div style={helpContentStyle} onClick={(e) => e.stopPropagation()}>
         <h2 style={{ borderBottom: "2px solid #eee", paddingBottom: "10px" }}>
-          💡 사용 방법
+          <img src="/logo.png" style={{ width: "24px", height: "24px" }}></img>{" "}
+          사용 방법
         </h2>
 
         <ul
@@ -79,6 +80,19 @@ export default function Help(props: HelpProps) {
               파일 불러오기: <kbd>Ctrl</kbd>+<kbd>I</kbd>
             </span>
           </div>
+        </div>
+
+        <div
+          style={{
+            textAlign: "center",
+            color: "gray",
+            opacity: "20",
+            marginTop: "20px",
+          }}
+        >
+          ✉ lsj1137jsl@gmail.com
+          <div style={{ height: "4px" }}></div>© 2025 Mini-Mind Project. All
+          rights reserved.
         </div>
 
         <button onClick={() => setIsHelpOpen(false)} style={closeButtonStyle}>

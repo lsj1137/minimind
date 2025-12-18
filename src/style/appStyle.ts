@@ -74,7 +74,7 @@ const helpContentStyle: React.CSSProperties = {
 };
 
 const closeButtonStyle: React.CSSProperties = {
-  marginTop: "30px",
+  marginTop: "20px",
   padding: "10px 30px",
   backgroundColor: "#4A90E2",
   color: "white",
