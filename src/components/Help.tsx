@@ -15,7 +15,7 @@ export default function Help(props: HelpProps) {
     <div style={modalOverlayStyle} onClick={() => setIsHelpOpen(false)}>
       <div style={helpContentStyle} onClick={(e) => e.stopPropagation()}>
         <h2 style={{ borderBottom: "2px solid #eee", paddingBottom: "10px" }}>
-          <img src="/logo.png" style={{ width: "24px", height: "24px" }}></img>{" "}
+          <img src="logo.png" style={{ width: "24px", height: "24px" }}></img>{" "}
           사용 방법
         </h2>
 
