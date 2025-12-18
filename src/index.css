@@ -1,4 +1,9 @@
 :root {
+  /* 다크 모드 자동 전환을 끄고 라이트 모드로 고정 */
+  color-scheme: light;
+  /* 기본 글자색과 배경색 명시 */
+  color: #213547;
+  background-color: #ffffff;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -80,4 +85,17 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #fff;
+  }
 }
