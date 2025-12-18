@@ -1,5 +1,4 @@
 // src/components/TempConnection.tsx
-import React from "react";
 import { type TempConnectionType } from "../types/mindmap";
 
 interface TempConnectionProps {

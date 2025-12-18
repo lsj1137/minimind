@@ -5,7 +5,6 @@ import { type NodeData } from "../types/mindmap";
 const ROOT_ID = "ROOT";
 const NODE_WIDTH = 150; // 노드 너비
 const NODE_HEIGHT = 60; // 노드 높이
-const NODE_RADIUS = 50; // 충돌 감지를 위해 기존 값을 임시로 유지 (또는 75로 변경)
 
 interface NodeProps {
   data: NodeData;
